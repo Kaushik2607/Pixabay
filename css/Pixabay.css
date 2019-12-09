@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/10-14-50-567_1440x480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.logo{
+     
+    width: 10%;
+    float: left; /*used to make all the element in single line.*/
+    background: url('../images/sprites.png');
+    height: 50px;
+    background-position: 10px 50px;
+}
+/*logoImage*/
+ .leftmenu{
+     
+    width: 45%;
+    float: left;
+}
+.rightmenu{
+    
+    width: 45%;
+    float: right;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;/*remove rediobutton*/
+
+}
+
+.leftmenu ul>li>a,
+.rightmenu>ul>li>a{
+    color: white;
+     
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+.leftmenu>ul>li,
+.rightmenu>ul>li{
+    display: inline-block;
+}
+#slidersection{
+    text-align: center;
+}
+.rightmenu{
+    text-align: right;
+}
+
